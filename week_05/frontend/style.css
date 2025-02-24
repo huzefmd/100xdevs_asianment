@@ -1,0 +1,116 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding:0 ;
+    background: 
+    linear-gradient(to right, rgb(0, 64, 255), rgb(255, 0, 123));
+    color:white ;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background: 
+    linear-gradient(to right, rgb(0, 64, 255), rgb(255, 0, 123));
+    border-radius: 20px;
+    padding: 30px;
+    width: 50%;
+    max-width: 100%;
+    box-shadow:0 4px 6px rgba(0,0,0,0.1);
+}
+
+
+h2{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+#todo-input{
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 10px;
+    background:rgba(255,255,0.2);
+    color: white;
+}
+
+input::placeholder{
+    color: rgba(255,255,255,0.2);
+}
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background-color: #8A2BE2;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+button:hover {
+    background-color: #9370DB;
+}
+
+#response-message {
+    margin-top: 20px;
+    text-align: center;
+    color: #FFD700;
+}
+
+a {
+    color: #FFD700;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* New styles for the todo list */
+  #todo-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #todo-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #todo-list li span {
+    flex-grow: 1;
+  }
+  
+  #todo-list li button {
+    padding: 6px 12px;
+    background-color: #FFF;
+    transition: background-color 0.3s;
+    color: black;
+  }
+  
+  #todo-list li button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  #response-message a {
+    color: #FFD700; /* Adjust color for better visibility */
+    text-decoration: underline;
+  }
+  
